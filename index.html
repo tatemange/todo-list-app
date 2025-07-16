@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo list app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-
+        <!-- titre de notre application -->
+        <h1>Todo list app </h1>
+        <form action="#" class="add-container">
+            <input type="text" placeholder="tache ?">
+            <input type="submit" value="Add" class="add">
+        </form>
     </header>
     <main>
+        <div class="filtre">
+            <div class="left">
+                <button class="no_do">Non faits</button>
+                <button class="all">tout</button>
+            </div>
+            <div class="right">
+                <button class="modifier">modifier</button>
+            </div>
+        </div>
+
+        <div class="card"></div>
 
     </main>
     <footer>
-        
+        <div class="header">
+            <h3>Terminer</h3>
+            <button class="view">voir plus</button>
+        </div>
+        <div class="card">
+            
+        </div>
     </footer>
+
+
+    <script src="./main.js"></script>
 </body>
+
 </html>
